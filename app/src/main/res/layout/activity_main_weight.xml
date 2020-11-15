@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:hint="@string/to"
+        android:gravity="top"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:hint="@string/subject"
+        android:gravity="top"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:hint="@string/message"
+        android:gravity="top"
+        android:layout_weight="2"/>
+
+    <Button
+        android:layout_height="0dp"
+        android:layout_width="100dp"
+        android:layout_weight="1"
+        android:text="@string/send"
+        android:layout_gravity="right"/>
+
+</LinearLayout>
